@@ -13,7 +13,7 @@ import (
 var DB *gorm.DB
 
 func ConnectDatabase() {
-	dbHost := getEnv("DB_HOST", "56.228.26.209")
+	dbHost := getEnv("DB_HOST", "16.171.147.121")
 	dbPort := getEnv("DB_PORT", "5432")
 	dbUser := getEnv("DB_USER", "celentris")
 	dbPassword := getEnv("DB_PASSWORD", "Thara2224")
